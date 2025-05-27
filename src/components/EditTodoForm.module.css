@@ -1,0 +1,36 @@
+.todoFormEdit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5rem;
+  }
+  
+.editInput {
+  outline: none;
+  border: 1px solid rgb(224, 224, 224);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  padding: 1em 7rem 1rem 1rem;
+  color: gray;
+}
+
+.editInput:focus {
+  border: 1px solid #38A4CF;
+  border-right: none;
+}
+
+.editButton {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  background-color: #38A4CF;
+  color: white;
+  font-weight: 600;
+  padding: 0.98rem 1rem;
+  transition: all 0.4s ease;
+}
+
+.editButton:hover {
+  background-color: #257ea1;
+}

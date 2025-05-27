@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.todo-list {
+  padding: 3rem 6rem 1rem;
+  background-color: white;
+  border: 1px solid #ADED53;
+  border-radius: 30px;
+  box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.todo-list__title {
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.todo-list__list {
+  list-style-type: none;
+  margin-top: 1.5rem;
+  padding: 0;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+
+.todo-hr {
+  background-color: #999999;
+  border: none;
+  height: 1px;
+}

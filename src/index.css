@@ -1,0 +1,9 @@
+:root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  background: #38a4cf;
+  background: linear-gradient(90deg,rgba(56, 164, 207, 1) 0%, rgba(169, 217, 188, 1) 50%, rgba(173, 237, 83, 1) 100%);
+}
+
