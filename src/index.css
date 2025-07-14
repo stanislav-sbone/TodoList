@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #eaebf5;
+}
+
+input, button {
+    outline: none;
+    border: none;
+    background: none;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #636481;
+    letter-spacing: 5px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.input {
+    background-color: white;
+    padding: 1rem 10rem 1rem 1rem;
+    border: 1px solid rgb(224, 224, 224);
+    border-right: none;
+    border-radius: 12px;
+    width: 25rem;
+    color: gray;
+    font-size: 1rem;
+}
+
+.input:focus {
+    border: 1px solid #646FEF;
+    border-right: none;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 0 12px 12px 0;
+    background-color: #646FEF;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    position: absolute;
+    top: 1;
+    right: -1px;
+    transition: all 0.4s ease;
+}
+
+.button:hover {
+    background-color: #3d4be9;
+}
+
+.clear {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 115px;
+}
