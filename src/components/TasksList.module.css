@@ -3,6 +3,9 @@
     border-radius: 10px;
     padding: 0.3rem 1rem;
     min-height: 4vh;
+    max-width: 545px;
+    max-height: 75vh;
+    overflow-y: auto;
 }
 
 .empty {

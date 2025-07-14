@@ -7,7 +7,7 @@ interface TodoFormProps {
 }
 
 const TodoForm: React.FC<TodoFormProps> = ({ addTask }) => {
-  const [taskText, setText] = useState<string>("");
+  const [text, setText] = useState<string>("");
   return (
     <>
       <h1 className={styles.title}>TODO LIST</h1>
@@ -21,16 +21,21 @@ const TodoForm: React.FC<TodoFormProps> = ({ addTask }) => {
         <input
           type="text"
           className={styles.input}
-          value={taskText}
+          value={text}
           onChange={(event) => setText(event.target.value)}
           placeholder="Новая задача"
         />
-        {taskText && (
-          <button className={styles.clear}>
+        {text && (
+          <button
+            className={styles.clear}
+            onClick={() => {
+              setText("");
+            }}
+          >
             <ClearIcon fontSize="small" color="action" />
           </button>
         )}
-        <button className={styles.button} onClick={() => addTask(taskText)}>
+        <button className={styles.button} onClick={() => addTask(text)}>
           Добавить
         </button>
       </form>

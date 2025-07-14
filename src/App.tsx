@@ -13,6 +13,7 @@ function App() {
         id: Date.now(),
         text: text,
         isCompleted: false,
+        isEditing: false,
       };
       setTasks([...tasks, newTask]);
     }

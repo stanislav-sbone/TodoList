@@ -6,14 +6,30 @@
     margin: 1rem 0;
     padding: 1rem 1rem;
     border-radius: 8px;
+    position: relative; 
 }
 
 .text {
-    margin-left: 1rem;
+    margin-left: 2rem;
     color: #5a5a6e;
+    display: inline-block;
+    max-width: 400px;
+    word-break: break-all;
+    text-align: left;
+    cursor: pointer;
 }
 
 .completed {
     text-decoration: line-through;
     background-color: #95f7c9;
+}
+
+.button {
+    cursor: pointer;
+}
+
+
+.checkbox {
+    position: absolute;
+    cursor: pointer;
 }
